@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>zdjs HTTPS Mock Contest</title>
+  <style>
+    body { font: 18px/1.55 system-ui, sans-serif; max-width: 48rem; margin: 2rem auto; padding: 0 1rem; }
+    fieldset { border: 0; padding: 0; }
+    label { display: block; padding: .7rem; margin: .5rem 0; border: 1px solid #bbb; border-radius: .4rem; }
+    button { font: inherit; padding: .4rem .8rem; margin: .5rem .5rem .5rem 0; }
+    #submit { background: #ffe2e2; }
+    #status { min-height: 2rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>zdjs HTTPS Mock Contest</h1>
+    <p>公开测试题，无账号、凭据或真实比赛数据。<a href="../knowledge/">测试知识页目录</a></p>
+    <p id="position" aria-live="polite"></p>
+    <h2 id="question"></h2>
+    <form id="options" aria-label="选项"></form>
+    <nav aria-label="题目导航">
+      <button id="previous" type="button">Previous</button>
+      <button id="next" type="button">Next</button>
+      <button id="submit" type="button">Submit</button>
+    </nav>
+    <p id="status" role="status"></p>
+  </main>
+  <script src="./contest.js"></script>
+</body>
+</html>
