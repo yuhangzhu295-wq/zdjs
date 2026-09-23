@@ -1,0 +1,4 @@
+interface:
+  display_name: "自动检索skill"
+  short_description: "联网检索原始来源，核验证据并处理信息素养竞赛题"
+  default_prompt: "Use $auto-research to inspect the question, search original sources, verify the evidence, and report the answer."
