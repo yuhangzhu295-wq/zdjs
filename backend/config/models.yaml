@@ -1,0 +1,7 @@
+agents:
+  orchestrator: {provider: openai, model: MODEL_ORCHESTRATOR}
+  primary_solver: {provider: openai, model: MODEL_PRIMARY}
+  independent_critic: {provider: anthropic, model: MODEL_CRITIC}
+  search_verifier: {provider: google, model: MODEL_SEARCH_VERIFIER}
+  red_team: {provider: deepseek, model: MODEL_RED_TEAM}
+  final_judge: {provider: openai, model: MODEL_FINAL_JUDGE}
